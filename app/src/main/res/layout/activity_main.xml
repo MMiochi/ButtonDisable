@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naciśnięto 0 razy"
+        android:textSize="22sp"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/buttonDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naciśnij"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktywuj przycisk"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zresetuj licznik"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+</LinearLayout>
